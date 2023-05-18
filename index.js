@@ -24,7 +24,7 @@ for (const file of chatHandlerFiles) {
 
 client.once(Events.ClientReady, async c => {
     console.log(`Ready! Logged in as ${c.user.tag}`);
-    client.user.setActivity({ name: "Misty Lake", type: ActivityType.Watching });
+    client.user.setActivity({ name: "Obsolete", type: ActivityType.Watching });
 });
 
 client.on(Events.MessageCreate, message => {
