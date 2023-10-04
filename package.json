@@ -1,16 +1,23 @@
 {
-  "name": "cirno-whatever",
+  "name": "discord-cirno",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@tensorflow/tfjs-node": "^4.5.0",
+    "@discordjs/opus": "^0.9.0",
+    "@discordjs/voice": "^0.16.0",
+    "@gradio/client": "^0.1.2",
+    "@tensorflow/tfjs-node": "^4.7.0",
     "axios": "^1.4.0",
-    "better-sqlite3": "^8.3.0",
-    "discord.js": "^14.9.0",
+    "better-sqlite3": "^8.4.0",
+    "discord.js": "^14.11.0",
     "gelbooru-api": "^1.0.1",
+    "gpt-3-encoder": "^1.1.4",
     "minimist": "^1.2.8",
     "nsfwjs": "^2.4.2",
-    "openai": "^3.2.1"
+    "openai": "^3.2.1",
+    "sharp": "^0.32.1",
+    "wav": "^1.0.2",
+    "whisper-node": "^0.2.12"
   }
 }
